@@ -1,3 +1,4 @@
+#bai2
 from datetime import datetime
 
 d1 = datetime.strptime(input("Nhập ngày 1 (dd/mm/yyyy): "), "%d/%m/%Y")
