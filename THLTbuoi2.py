@@ -1,7 +1,7 @@
-# #bài 6
-# s = input("Nhập một chuỗi: ")
-# tu = input("Nhập một từ: ")
-# print("Số từ {} trong chuỗi là: {}".format(tu, s.count(tu)))
+#bài 6
+s = input("Nhập một chuỗi: ")
+tu = input("Nhập một từ: ")
+print("Số từ {} trong chuỗi là: {}".format(tu, s.count(tu)))
 
 #bài 13
 s = """   Quê  hương
