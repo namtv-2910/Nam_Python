@@ -16,3 +16,12 @@ def Gt(n):
 n = int(input("Nhập một số nguyên dương: "))
 print("Giai thừa của", n, "là:", Gt(n))
 
+#bai 3
+def luy_thua(x, n):
+    if n == 0:
+        return 1
+    else:
+        return x * luy_thua(x, n - 1)
+a = int(input("Nhập cơ số: "))
+b = int(input("Nhập số mũ: "))
+print(a, "^", b, "là:", luy_thua(a, b))
