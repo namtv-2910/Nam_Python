@@ -25,3 +25,13 @@ def luy_thua(x, n):
 a = int(input("Nhập cơ số: "))
 b = int(input("Nhập số mũ: "))
 print(a, "^", b, "là:", luy_thua(a, b))
+
+#bai 4
+def gcd(a, b):
+    if b == 0:
+        return a
+    else: 
+        return gcd(b, a%b)
+a = int(input("Nhập số nguyên dương thứ nhất: "))
+b = int(input("Nhập số nguyên dương thứ hai: "))
+print("Ước chung lớn nhất của", a, "và", b, "là:", gcd(a, b))
