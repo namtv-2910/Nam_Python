@@ -24,7 +24,7 @@ def luy_thua(x, n):
         return x * luy_thua(x, n - 1)
 a = int(input("Nhập cơ số: "))
 b = int(input("Nhập số mũ: "))
-print(a, "^", b, "là:", luy_thua(a, b))
+print(a, "^", b, "=", luy_thua(a, b))
 
 #bai 4
 def gcd(a, b):
@@ -35,3 +35,11 @@ def gcd(a, b):
 a = int(input("Nhập số nguyên dương thứ nhất: "))
 b = int(input("Nhập số nguyên dương thứ hai: "))
 print("Ước chung lớn nhất của", a, "và", b, "là:", gcd(a, b))
+
+#bai 5
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+n = int(input("Nhập một số nguyên dương: "))
+print("Số Fibonacci thứ", n, "là:", fibonacci(n))
